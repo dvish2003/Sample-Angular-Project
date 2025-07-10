@@ -6,11 +6,13 @@ import { App } from './app';
 import {MainComponent} from './main/main.component';
 import { Navigation } from './navigation/navigation';
 import { Content } from './content/content';
+import { TemplateTest } from './template-test/template-test';
 
 @NgModule({
   declarations: [
     App,
-    Content
+    Content,
+    TemplateTest
   ],
   imports: [
     BrowserModule,
